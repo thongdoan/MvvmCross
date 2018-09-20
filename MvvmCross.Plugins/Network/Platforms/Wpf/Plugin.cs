@@ -12,7 +12,6 @@ namespace MvvmCross.Plugin.Network.Platforms.Wpf
     {
         public override void Load()
         {
-        	base.Load();
             Mvx.IoCProvider.RegisterType<IMvxReachability, MvxWpfReachability>();
         }
     }
